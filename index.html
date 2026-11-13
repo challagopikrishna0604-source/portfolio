@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Challa Gopi Krishna Portfolio</title>
+<meta name="description" content="Portfolio of Challa Gopi Krishna, a Java full stack developer from Hyderabad with React.js, MySQL, Excel and Power BI skills.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" data-scroll aria-label="Challa Gopi Krishna, back to top">CGK</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#about" data-scroll>About</a>
+      <a href="#skills" data-scroll>Skills</a>
+      <a href="#projects" data-scroll>Projects</a>
+      <a href="#education" data-scroll>Education</a>
+      <a href="#contact" data-scroll>Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" id="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="status rise" style="--d:0ms"><span class="dot" aria-hidden="true"></span>Open to full-time developer roles</p>
+        <h1 class="hero-name" id="heroName">
+          <span class="line"><span style="--d:100ms">Challa Gopi</span></span>
+          <span class="line"><span style="--d:230ms">Krishna</span></span>
+        </h1>
+        <p class="hero-role rise" style="--d:450ms">I am a <span class="rotator" id="rotator" aria-live="off">Java full stack developer</span></p>
+        <p class="hero-lede rise" style="--d:560ms">I build web applications with Java, React.js and MySQL, and I turn raw data into clear reports with Excel and Power BI.</p>
+        <div class="hero-cta rise" style="--d:670ms">
+          <a class="btn btn-primary" href="#projects" data-scroll data-magnet>View my projects</a>
+          <a class="btn btn-ghost" href="#contact" data-scroll data-magnet>Get in touch</a>
+        </div>
+        <dl class="stats rise" style="--d:780ms" id="stats">
+          <div class="stat"><dt>Projects built</dt><dd><span class="count" data-to="3">3</span></dd></div>
+          <div class="stat"><dt>DSA problems solved</dt><dd><span class="count" data-to="150">150</span>+</dd></div>
+        </dl>
+      </div>
+
+      <aside class="profile rise" style="--d:500ms" aria-label="Quick facts">
+        <div class="profile-float">
+          <div class="profile-card" id="profileCard">
+            <div class="avatar" aria-hidden="true">CGK</div>
+            <p class="profile-name">Challa Gopi Krishna</p>
+            <p class="profile-role">Java full stack developer</p>
+            <dl class="facts">
+              <div><dt>Based in</dt><dd>Hyderabad, India</dd></div>
+              <div><dt>Core stack</dt><dd>Java, React.js, MySQL</dd></div>
+              <div><dt>Data tools</dt><dd>Excel, Power BI</dd></div>
+              <div><dt>Education</dt><dd>B.Tech, class of 2026</dd></div>
+            </dl>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="marquee" id="marquee" aria-label="Core skills">
+    <div class="marquee-track" id="track">
+      <span class="marquee-item">Java</span>
+      <span class="marquee-item">React.js</span>
+      <span class="marquee-item">MySQL</span>
+      <span class="marquee-item">Excel</span>
+      <span class="marquee-item">Power BI</span>
+      <span class="marquee-item">JavaScript</span>
+      <span class="marquee-item">HTML</span>
+      <span class="marquee-item">CSS</span>
+      <span class="marquee-item">Python</span>
+      <span class="marquee-item">Data structures</span>
+      <span class="marquee-item">OOP</span>
+    </div>
+  </div>
+
+  <section class="section" id="about">
+    <div class="wrap split">
+      <div class="split-head head-reveal"><h2>About me</h2></div>
+      <div class="split-body">
+        <p class="lead reveal">I am a software developer from Hyderabad who enjoys building web applications that are simple to use and reliable. I have built projects with React.js, HTML, CSS and JavaScript, completed Java full stack training and an internship, and I practise data structures and algorithms regularly.</p>
+        <p class="reveal">My main stack is Java for the back end, React.js for the front end and MySQL for data. I also work with Excel and Power BI, so I can take a dataset, clean it and present it in a form a team can act on.</p>
+        <p class="reveal">I am looking for a developer role in a team where I can ship real features, learn from experienced engineers and keep growing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="skills">
+    <div class="wrap split">
+      <div class="split-head head-reveal">
+        <h2>Skills</h2>
+        <p>The tools I use to build, store and report.</p>
+      </div>
+      <div class="split-body">
+        <div class="skill-grid">
+          <div class="card reveal" data-spot>
+            <h3>Languages and back end</h3>
+            <ul class="chips stagger"><li>Java</li><li>Python (basic)</li><li>Object-oriented programming</li></ul>
+          </div>
+          <div class="card reveal" data-spot>
+            <h3>Front end</h3>
+            <ul class="chips stagger"><li>React.js</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+          </div>
+          <div class="card reveal" data-spot>
+            <h3>Data and reporting</h3>
+            <ul class="chips stagger"><li>MySQL</li><li>Microsoft Excel</li><li>Power BI</li></ul>
+          </div>
+          <div class="card reveal" data-spot>
+            <h3>Tools</h3>
+            <ul class="chips stagger"><li>VS Code</li><li>MS Office</li><li>MS Excel</li></ul>
+          </div>
+          <div class="card wide reveal" data-spot>
+            <h3>Problem solving</h3>
+            <ul class="chips stagger"><li>Data structures and algorithms (basics)</li></ul>
+            <dl class="solved">
+              <div><dt>LeetCode</dt><dd><span class="count" data-to="60">60</span>+ problems solved</dd></div>
+              <div><dt>GeeksforGeeks</dt><dd><span class="count" data-to="90">90</span>+ problems solved</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="wrap split">
+      <div class="split-head head-reveal">
+        <h2>Projects</h2>
+        <p>Three web apps built from scratch. Select one to see the details.</p>
+      </div>
+      <div class="split-body">
+        <ol class="projects" id="projectList">
+          <li class="project reveal open" data-spot>
+            <button class="project-head" type="button" aria-expanded="true" aria-controls="proj1">
+              <span class="project-title">My Store</span>
+              <span class="project-meta"><span class="tags"><span class="tag">React.js</span><span class="tag">Responsive UI</span></span><span class="chev" aria-hidden="true"></span></span>
+            </button>
+            <div class="project-panel" id="proj1">
+              <div><div class="panel-in">
+                <p>A responsive e-commerce app for a coffee shop, built with React.js.</p>
+                <ul class="points">
+                  <li>Product listings with dynamic product displays</li>
+                  <li>Shopping cart functionality</li>
+                  <li>Responsive interface for smooth online shopping on any screen</li>
+                </ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="project reveal" data-spot>
+            <button class="project-head" type="button" aria-expanded="false" aria-controls="proj2">
+              <span class="project-title">Spotify Clone</span>
+              <span class="project-meta"><span class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></span><span class="chev" aria-hidden="true"></span></span>
+            </button>
+            <div class="project-panel" id="proj2">
+              <div><div class="panel-in">
+                <p>A responsive replica of the Spotify web player.</p>
+                <ul class="points">
+                  <li>JavaScript for interactive elements</li>
+                  <li>UI and UX tuned for cross-device compatibility</li>
+                </ul>
+              </div></div>
+            </div>
+          </li>
+          <li class="project reveal" data-spot>
+            <button class="project-head" type="button" aria-expanded="false" aria-controls="proj3">
+              <span class="project-title">E-commerce Website</span>
+              <span class="project-meta"><span class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></span><span class="chev" aria-hidden="true"></span></span>
+            </button>
+            <div class="project-panel" id="proj3">
+              <div><div class="panel-in">
+                <p>A responsive online shopping website.</p>
+                <ul class="points">
+                  <li>Product pages, a cart and a checkout flow</li>
+                  <li>Focus on a smooth user experience across devices</li>
+                </ul>
+              </div></div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="education">
+    <div class="wrap split">
+      <div class="split-head head-reveal"><h2>Education and learning</h2></div>
+      <div class="split-body">
+        <div class="entry reveal">
+          <p class="entry-when">2022 to 2026</p>
+          <div>
+            <h3>Bachelor of Technology</h3>
+            <p>Mahatma Gandhi Institute of Engineering and Technology (MGIT), Hyderabad. CGPA 7.1 out of 10.</p>
+          </div>
+        </div>
+        <h3 class="subhead reveal">Certifications</h3>
+        <ul class="plain stagger">
+          <li>Java full stack certification, InternshipStudio</li>
+          <li>Java internship, InternshipStudio</li>
+          <li>Python basics certification</li>
+          <li>Java basics certification</li>
+        </ul>
+        <h3 class="subhead reveal">Community and workshops</h3>
+        <ul class="plain stagger">
+          <li>Community member, Startup Party Hyderabad</li>
+          <li>Cybersecurity workshop, IIT Hyderabad</li>
+          <li>Blockchain workshop, T-Hub Hyderabad</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap split">
+      <div class="split-head head-reveal">
+        <h2>Contact</h2>
+        <p>Write to me about roles, internships or projects.</p>
+      </div>
+      <div class="split-body">
+        <div class="contact-list stagger">
+          <div class="contact-row">
+            <span class="contact-label">Email</span>
+            <a class="contact-value" href="mailto:challagopikrishna0604@gmail.com">challagopikrishna0604@gmail.com</a>
+            <button class="copy" type="button" data-copy="challagopikrishna0604@gmail.com">Copy</button>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">Phone</span>
+            <a class="contact-value" href="tel:+918341592640">+91 83415 92640</a>
+            <button class="copy" type="button" data-copy="+91 83415 92640">Copy</button>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Kokapet, Hyderabad, Telangana</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; <span id="year">2026</span> Challa Gopi Krishna</p>
+    <a href="#top" data-scroll>Back to top</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
